@@ -1,0 +1,49 @@
+Package: sdmtools
+Title: Species Distribution Modelling Tools: Tools for processing data
+    associated with species distribution modelling exercises
+Version: 1.1.222.9000
+Authors@R: 
+   c(
+    person(given = "Jeremy",
+           family = "VanDerWal",
+           role = c("aut", "cre"),
+           email = "jjvanderwal@gmail.com"),
+    person(given = "Lorena",
+           family = "Falconi",
+           role = c("aut")),
+    person(given = "Stephanie",
+           family = "Januchowski",
+           role = c("aut")),
+    person(given = "Luke",
+           family = "Shoo",
+           role = c("aut")),
+    person(given = "Collin",
+           family = "Storlie",
+           role = c("aut")),
+    person(given = "Paul Efren",
+           family = "Santos Andrade",
+           role = c("ctb"),
+           email = "paulefrens@gmail.com",
+           comment = c(ORCID = "0000-0002-6635-0375")) )
+Description: This packages provides a set of tools for post processing the
+    outcomes of species distribution modeling exercises. It includes novel
+    methods for comparing models and tracking changes in distributions through
+    time. It further includes methods for visualizing outcomes, selecting
+    thresholds, calculating measures of accuracy and landscape fragmentation
+    statistics, etc.. This package was made possible in part by financial
+    support from the Australian Research Council & ARC Research Network for
+    Earth System Science.
+License: MIT + file LICENSE
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    raster,
+    sp,
+    Rcpp,
+    R.utils
+LinkingTo: 
+    Rcpp
